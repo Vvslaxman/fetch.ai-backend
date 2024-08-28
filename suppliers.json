@@ -1,0 +1,92 @@
+[
+  {
+      "supplier_name": "Supplier A",
+      "review_score": 4.5,
+      "inventory": {
+          "Laptops": 50,
+          "Chairs": 100
+      },
+      "capabilities": "ML Lab setup, Large Orders"
+  },
+  {
+      "supplier_name": "Supplier B",
+      "review_score": 4.7,
+      "inventory": {
+          "Laptops": 30,
+          "Chairs": 150
+      },
+      "capabilities": "Laptops, Chairs"
+  },
+  {
+      "supplier_name": "Supplier C",
+      "review_score": 4.3,
+      "inventory": {
+          "Laptops": 100,
+          "Chairs": 200
+      },
+      "capabilities": "ML Lab setup, Rapid Delivery"
+  },
+  {
+      "supplier_name": "Supplier D",
+      "review_score": 4.2,
+      "inventory": {
+          "Laptops": 60,
+          "Chairs": 80
+      },
+      "capabilities": "ML Lab setup, Small Orders"
+  },
+  {
+      "supplier_name": "Supplier E",
+      "review_score": 4.6,
+      "inventory": {
+          "Laptops": 40,
+          "Chairs": 120
+      },
+      "capabilities": "Laptops, Large Orders"
+  },
+  {
+      "supplier_name": "Supplier F",
+      "review_score": 4.1,
+      "inventory": {
+          "Laptops": 20,
+          "Chairs": 50
+      },
+      "capabilities": "Chairs, Small Orders"
+  },
+  {
+      "supplier_name": "Supplier G",
+      "review_score": 4.4,
+      "inventory": {
+          "Laptops": 70,
+          "Chairs": 90
+      },
+      "capabilities": "ML Lab setup, Large Orders"
+  },
+  {
+      "supplier_name": "Supplier H",
+      "review_score": 4.0,
+      "inventory": {
+          "Laptops": 80,
+          "Chairs": 110
+      },
+      "capabilities": "Chairs, Rapid Delivery"
+  },
+  {
+      "supplier_name": "Supplier I",
+      "review_score": 3.9,
+      "inventory": {
+          "Laptops": 35,
+          "Chairs": 75
+      },
+      "capabilities": "ML Lab setup, Laptops"
+  },
+  {
+      "supplier_name": "Supplier J",
+      "review_score": 4.8,
+      "inventory": {
+          "Laptops": 90,
+          "Chairs": 100
+      },
+      "capabilities": "Laptops, Chairs"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+      "transporter_name": "Transporter 1",
+      "available_vehicles": 5,
+      "delivery_time_days": 3
+  },
+  {
+      "transporter_name": "Transporter 2",
+      "available_vehicles": 3,
+      "delivery_time_days": 2
+  },
+  {
+      "transporter_name": "Transporter 3",
+      "available_vehicles": 4,
+      "delivery_time_days": 4
+  },
+  {
+      "transporter_name": "Transporter 4",
+      "available_vehicles": 2,
+      "delivery_time_days": 1
+  },
+  {
+      "transporter_name": "Transporter 5",
+      "available_vehicles": 6,
+      "delivery_time_days": 5
+  }
+]

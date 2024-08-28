@@ -1,0 +1,26 @@
+[
+  {
+      "supplier_name": "Supplier A",
+      "minimum_inventory": {
+          "Laptops": 30,
+          "Chairs": 50
+      },
+      "required_review_score": 4.0
+  },
+  {
+      "supplier_name": "Supplier B",
+      "minimum_inventory": {
+          "Laptops": 40,
+          "Chairs": 60
+      },
+      "required_review_score": 4.5
+  },
+  {
+      "supplier_name": "Supplier C",
+      "minimum_inventory": {
+          "Laptops": 50,
+          "Chairs": 70
+      },
+      "required_review_score": 4.3
+  }
+]
