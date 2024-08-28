@@ -1,26 +1,46 @@
-[
-  {
-      "supplier_name": "Supplier A",
-      "minimum_inventory": {
+{
+    "suppliers": [
+      {
+        "supplier_name": "Supplier A",
+        "minimum_inventory": {
           "Laptops": 30,
           "Chairs": 50
+        },
+        "required_review_score": 4.0
       },
-      "required_review_score": 4.0
-  },
-  {
-      "supplier_name": "Supplier B",
-      "minimum_inventory": {
+      {
+        "supplier_name": "Supplier B",
+        "minimum_inventory": {
           "Laptops": 40,
           "Chairs": 60
+        },
+        "required_review_score": 4.5
       },
-      "required_review_score": 4.5
-  },
-  {
-      "supplier_name": "Supplier C",
-      "minimum_inventory": {
+      {
+        "supplier_name": "Supplier C",
+        "minimum_inventory": {
           "Laptops": 50,
           "Chairs": 70
+        },
+        "required_review_score": 4.3
+      }
+    ],
+    "transporters": [
+      {
+        "transporter_name": "Transporter 1",
+        "minimum_vehicles": 3,
+        "required_delivery_score": 0.8
       },
-      "required_review_score": 4.3
+      {
+        "transporter_name": "Transporter 2",
+        "minimum_vehicles": 2,
+        "required_delivery_score": 0.85
+      },
+      {
+        "transporter_name": "Transporter 3",
+        "minimum_vehicles": 4,
+        "required_delivery_score": 0.75
+      }
+    ]
   }
-]
+  

@@ -1,4 +1,5 @@
 from uagents import Agent, Context, Model
+import time
 from uagents.setup import fund_agent_if_low
 
 # Address of the Business User agent
@@ -26,10 +27,14 @@ async def startup(ctx: Context):
 
 @implementation.on_message(model=TransportSelection)
 async def handle_transport_selection(ctx: Context, sender: str, transport_selection: TransportSelection):
+    start_time = time.time() 
     ctx.logger.info(f"Received transport selection: {transport_selection.transporter}")
 
     implementation_confirmation = ImplementationConfirmation(status="Job Setup Completed")
     await ctx.send(business_user_address, implementation_confirmation)
+    end_time = time.time()  # End timing
+    execution_time = end_time - start_time  # Calculate elapsed time
+    ctx.logger.info(f"TransportAgent execution time: {execution_time:.2f} seconds")
 
 if __name__ == "__main__":
     implementation.run()

@@ -2,26 +2,31 @@
   {
       "transporter_name": "Transporter 1",
       "available_vehicles": 5,
-      "delivery_time_days": 3
+      "delivery_time_days": 3,
+      "on_time_deliveries/total_deliveries": 0.7
   },
   {
       "transporter_name": "Transporter 2",
       "available_vehicles": 3,
-      "delivery_time_days": 2
+      "delivery_time_days": 2,
+      "on_time_deliveries/total_deliveries": 0.8
   },
   {
       "transporter_name": "Transporter 3",
       "available_vehicles": 4,
-      "delivery_time_days": 4
+      "delivery_time_days": 4,
+      "on_time_deliveries/total_deliveries": 0.75
   },
   {
       "transporter_name": "Transporter 4",
       "available_vehicles": 2,
-      "delivery_time_days": 1
+      "delivery_time_days": 1,
+      "on_time_deliveries/total_deliveries": 0.85
   },
   {
       "transporter_name": "Transporter 5",
       "available_vehicles": 6,
-      "delivery_time_days": 5
+      "delivery_time_days": 5,
+      "on_time_deliveries/total_deliveries": 0.9
   }
 ]
