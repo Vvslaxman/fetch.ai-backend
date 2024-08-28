@@ -17,7 +17,7 @@ supplier = Agent(
 
 fund_agent_if_low(supplier.wallet.address())
 quality_checker_address = "agent1qtl4zy63wgkps0wwruew5tfx2pn3z647vtm2acupgluvrqqmwcf8c4k3p03"
-
+#keerdep
 @supplier.on_event("startup")
 async def startup(ctx: Context):
     ctx.logger.info("Supplier agent has started up.")
