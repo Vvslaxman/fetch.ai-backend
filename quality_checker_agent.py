@@ -55,7 +55,7 @@ async def handle_supplier_selection(ctx: Context, sender: str, selection: Suppli
     await ctx.send(transport_address, final_supplier_message)
     end_time = time.time()  # End timing
     execution_time = end_time - start_time  # Calculate elapsed time
-    ctx.logger.info(f"TransportAgent execution time: {execution_time:.2f} seconds")
+    ctx.logger.info(f"QualityCheckerAgent - TopSupplier execution time: {execution_time:.2f} seconds")
 
 @quality_checker.on_message(model=TopTransporters)
 async def handle_top_transporters(ctx: Context, sender: str, top_transporters: TopTransporters):
@@ -74,7 +74,7 @@ async def handle_top_transporters(ctx: Context, sender: str, top_transporters: T
     await ctx.send(transport_address, transport_selection)
     end_time = time.time()  # End timing
     execution_time = end_time - start_time  # Calculate elapsed time
-    ctx.logger.info(f"TransportAgent execution time: {execution_time:.2f} seconds")
+    ctx.logger.info(f"QualityCheckerAgent - TopTransporter execution time: {execution_time:.2f} seconds")
 
 if __name__ == "__main__":
     quality_checker.run()

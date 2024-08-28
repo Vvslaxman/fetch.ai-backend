@@ -27,7 +27,7 @@ async def startup(ctx: Context):
     start_time = time.time() 
 
     # Fetch the job requirement from the Flask server
-    response = requests.post('http://127.0.0.1:5000/submit_job', json={"item": "", "quantity": 50})
+    response = requests.post('http://127.0.0.1:5000/submit_job', json={"item": "Chairs", "quantity": 30})
     job_data = response.json()
     
     if response.status_code == 200:
@@ -56,7 +56,7 @@ async def startup(ctx: Context):
         await ctx.send(quality_checker_address, supplier_selection)
         end_time = time.time()  # End timing
         execution_time = end_time - start_time  # Calculate elapsed time
-        ctx.logger.info(f"TransportAgent execution time: {execution_time:.2f} seconds")
+        ctx.logger.info(f"SupplierAgent execution time: {execution_time:.2f} seconds")
 
 if __name__ == "__main__":
     supplier.run()

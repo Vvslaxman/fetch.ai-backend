@@ -32,7 +32,7 @@ async def handle_implementation_confirmation(ctx: Context, sender: str, confirma
     # Optionally, send this confirmation to a UI or other system if needed
     end_time = time.time()  # End timing
     execution_time = end_time - start_time  # Calculate elapsed time
-    ctx.logger.info(f"TransportAgent execution time: {execution_time:.2f} seconds")
+    ctx.logger.info(f"BusinessUserAgent execution time: {execution_time:.2f} seconds")
 
 if __name__ == "__main__":
     business_user.run()
