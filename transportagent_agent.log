@@ -1,0 +1,74 @@
+Execution time: 1.86 seconds
+Logs:
+
+
+Execution time: 1.51 seconds
+Logs:
+
+
+Execution time: 2.01 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 2.01 seconds
+
+Execution time: 1.4536221027374268 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 1.45 seconds
+
+Execution time: 1.8783371448516846 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 1.88 seconds
+
+Execution time: 2.4673714637756348 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 2.47 seconds
+
+Execution time: 2.437324285507202 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 2.44 seconds
+
+Execution time: 2.2690510749816895 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 2.27 seconds
+
+Execution time: 3.3024463653564453 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 3.30 seconds
+
+Execution time: 1.8705017566680908 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 1.87 seconds
+
+Execution time: 1.661808729171753 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 1.66 seconds
+
+Execution time: 2.561286449432373 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 2.56 seconds
+
+Execution time: 2.085984945297241 seconds
+Logs:
+Top 2 or 3 transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Selected final transporter: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TransportAgent execution time: 2.09 seconds
+

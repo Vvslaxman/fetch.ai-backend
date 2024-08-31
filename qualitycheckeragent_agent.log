@@ -1,0 +1,140 @@
+Execution time: 1.45 seconds
+Logs:
+
+
+Execution time: 0.92 seconds
+Logs:
+
+
+Execution time: 0.63 seconds
+Logs:
+
+
+Execution time: 0.79 seconds
+Logs:
+
+
+Execution time: 0.57 seconds
+Logs:
+Received supplier selection: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+Selected final supplier: {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}
+TopSupplier execution time: 0.57 seconds
+
+Execution time: 1.08 seconds
+Logs:
+Received top transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Best transporter selected: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TopTransporter execution time: 1.08 seconds
+
+Execution time: 0.7005431652069092 seconds
+Logs:
+Received supplier selection: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+Selected final supplier: {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}
+TopSupplier execution time: 0.70 seconds
+
+Execution time: 1.2321743965148926 seconds
+Logs:
+Received top transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Best transporter selected: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TopTransporter execution time: 1.23 seconds
+
+Execution time: 1.0725157260894775 seconds
+Logs:
+Received supplier selection: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+Selected final supplier: {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}
+TopSupplier execution time: 1.07 seconds
+
+Execution time: 0.86995530128479 seconds
+Logs:
+Received top transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Best transporter selected: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TopTransporter execution time: 0.87 seconds
+
+Execution time: 1.1478688716888428 seconds
+Logs:
+Received supplier selection: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+Selected final supplier: {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}
+TopSupplier execution time: 1.15 seconds
+
+Execution time: 1.4256644248962402 seconds
+Logs:
+Received top transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Best transporter selected: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TopTransporter execution time: 1.43 seconds
+
+Execution time: 1.029475450515747 seconds
+Logs:
+Received supplier selection: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+Selected final supplier: {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}
+TopSupplier execution time: 1.03 seconds
+
+Execution time: 1.0854401588439941 seconds
+Logs:
+Received top transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Best transporter selected: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TopTransporter execution time: 1.09 seconds
+
+Execution time: 1.2439324855804443 seconds
+Logs:
+Received supplier selection: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+Selected final supplier: {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}
+TopSupplier execution time: 1.24 seconds
+
+Execution time: 1.0392775535583496 seconds
+Logs:
+Received top transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Best transporter selected: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TopTransporter execution time: 1.04 seconds
+
+Execution time: 1.3738057613372803 seconds
+Logs:
+Received supplier selection: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+Selected final supplier: {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}
+TopSupplier execution time: 1.37 seconds
+
+Execution time: 1.8217968940734863 seconds
+Logs:
+Received top transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Best transporter selected: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TopTransporter execution time: 1.82 seconds
+
+Execution time: 0.8864893913269043 seconds
+Logs:
+Received supplier selection: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+Selected final supplier: {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}
+TopSupplier execution time: 0.89 seconds
+
+Execution time: 1.0507738590240479 seconds
+Logs:
+Received top transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Best transporter selected: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TopTransporter execution time: 1.05 seconds
+
+Execution time: N/A seconds
+Logs:
+
+
+Execution time: N/A seconds
+Logs:
+
+
+Execution time: N/A seconds
+Logs:
+
+
+Execution time: N/A seconds
+Logs:
+
+
+Execution time: 1.0930094718933105 seconds
+Logs:
+Received supplier selection: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+Selected final supplier: {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}
+TopSupplier execution time: 1.09 seconds
+
+Execution time: 1.054807186126709 seconds
+Logs:
+Received top transporters: [{'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}, {'transporter_name': 'Transporter 4', 'available_vehicles': 2, 'delivery_time_days': 1, 'on_time_deliveries/total_deliveries': 0.85}, {'transporter_name': 'Transporter 2', 'available_vehicles': 3, 'delivery_time_days': 2, 'on_time_deliveries/total_deliveries': 0.8}]
+Best transporter selected: {'transporter_name': 'Transporter 5', 'available_vehicles': 6, 'delivery_time_days': 5, 'on_time_deliveries/total_deliveries': 0.9}
+TopTransporter execution time: 1.05 seconds
+

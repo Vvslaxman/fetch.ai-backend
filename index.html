@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Procurement Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ece9e6, #ffffff);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Changed alignment to start */
+            min-height: 100vh;
+            margin: 20px; /* Added margin for better spacing */
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 16px;
+            padding: 30px;
+            max-width: 900px;
+            width: 100%; /* Ensure full width on smaller screens */
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            margin-top: 70px;
+        }
+        button {
+            background-color: #6200ea;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #3700b3;
+        }
+        .output {
+            margin-top: 20px;
+            white-space: pre-wrap;
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.6;
+            overflow-y: auto;
+            max-height: 400px; /* Set a max height for the output area */
+        }
+        .output-section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-left: 5px solid #6200ea;
+            background-color: #fafafa;
+            border-radius: 8px;
+        }
+        .output-section h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #6200ea;
+        }
+        .output-section p {
+            margin: 5px 0;
+        }
+        .highlight {
+            background-color: #e3f2fd;
+            padding: 5px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Decentralized Procurement Management</h1>
+        <button id="fetchOutput">Fetch Agent Output</button>
+        <div id="output" class="output"></div>
+    </div>
+
+    <script>
+        document.getElementById('fetchOutput').addEventListener('click', async () => {
+    try {
+        const response = await fetch('http://127.0.0.1:5000/fetch_agent_output');
+        const data = await response.json();
+        let outputHTML = '';
+
+        for (const [agentName, agentData] of Object.entries(data)) {
+            outputHTML += `
+                <div class="output-section">
+                    <h2>${agentName}</h2>
+                    <p><strong>Logs:</strong></p>
+                    <p class="highlight">${agentData.logs ? agentData.logs.replace(/\n/g, '<br>') : 'No logs available'}</p>
+                    <p><strong>Execution Time:</strong> <span class="highlight">${agentData.execution_time ? agentData.execution_time.toFixed(2) : 'N/A'} seconds</span></p>
+            `;
+            if (agentData.final_supplier) {
+                outputHTML += `<p><strong>Final Supplier:</strong> <span class="highlight">${JSON.stringify(agentData.final_supplier, null, 2)}</span></p>`;
+            }
+            if (agentData.best_transporter) {
+                outputHTML += `<p><strong>Best Transporter:</strong> <span class="highlight">${JSON.stringify(agentData.best_transporter, null, 2)}</span></p>`;
+            }
+            outputHTML += `</div>`;
+        }
+
+        document.getElementById('output').innerHTML = outputHTML;
+    } catch (error) {
+        console.error('Error fetching agent output:', error);
+        document.getElementById('output').innerHTML = '<p class="highlight">An error occurred while fetching the output. Please try again later.</p>';
+    }
+});
+
+    </script>
+</body>
+</html>

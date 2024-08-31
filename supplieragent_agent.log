@@ -1,0 +1,80 @@
+Execution time: 31.04 seconds
+Logs:
+
+
+Execution time: 2.65 seconds
+Logs:
+
+
+Execution time: 3.47 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 3.47 seconds
+
+Execution time: 2.59 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 2.59 seconds
+
+Execution time: 1.6592416763305664 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 1.66 seconds
+
+Execution time: 31.0267391204834 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 31.03 seconds
+
+Execution time: 31.631107807159424 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 31.63 seconds
+
+Execution time: 31.016897439956665 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 31.02 seconds
+
+Execution time: 14.426990985870361 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 14.43 seconds
+
+Execution time: 31.438135147094727 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 31.44 seconds
+
+Execution time: 16.421162366867065 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 16.42 seconds
+
+Execution time: 31.177754163742065 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 31.18 seconds
+
+Execution time: 31.41150689125061 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 31.41 seconds
+
+Execution time: 4.100382089614868 seconds
+Logs:
+Job requirement: Chairs x 30
+Top 3 suppliers: [{'supplier_name': 'Supplier J', 'review_score': 4.8, 'inventory': {'Laptops': 90, 'Chairs': 100}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier B', 'review_score': 4.7, 'inventory': {'Laptops': 30, 'Chairs': 150}, 'capabilities': 'Laptops, Chairs'}, {'supplier_name': 'Supplier E', 'review_score': 4.6, 'inventory': {'Laptops': 40, 'Chairs': 120}, 'capabilities': 'Laptops, Large Orders'}]
+SupplierAgent execution time: 4.10 seconds
+

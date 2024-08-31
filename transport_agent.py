@@ -1,7 +1,10 @@
 import json
 import time
+import logging
+import requests
 from uagents import Agent, Context, Model
 from uagents.setup import fund_agent_if_low
+
 
 # Address of the Implementation agent
 implementation_address = "agent1q2ukjfv5zsdnh79v7c8l6qw9g9xczxpfje75ucmmx8a7k800p735kf2u5wy"
@@ -24,14 +27,18 @@ transport_agent = Agent(
 
 fund_agent_if_low(transport_agent.wallet.address())
 
+# Server endpoint to send logs and execution times
+server_endpoint = "http://127.0.0.1:5000/agent_output"
+
 @transport_agent.on_event("startup")
 async def startup(ctx: Context):
     ctx.logger.info("Transport agent has started up.")
-    ctx.logger.info(ctx.address)
+    ctx.logger.info(f"My address is {ctx.agent.address}")
 
 @transport_agent.on_message(model=FinalSupplier)
 async def handle_final_supplier(ctx: Context, sender: str, final_supplier: FinalSupplier):
     start_time = time.time() 
+    output_log=[]
     ctx.logger.info(f"Received final supplier details: {final_supplier.supplier}")
 
     with open("transporters.json") as f:
@@ -53,12 +60,12 @@ async def handle_final_supplier(ctx: Context, sender: str, final_supplier: Final
         reverse=True
     )[:3]
 
-    ctx.logger.info(f"Top 2 or 3 transporters: {top_transporters}")
+    output_log.append(f"Top 2 or 3 transporters: {top_transporters}")
 
     # Select the final transporter from the top transporters
     final_transporter = top_transporters[0]  # Can use any filtering criteria
 
-    ctx.logger.info(f"Selected final transporter: {final_transporter}")
+    output_log.append(f"Selected final transporter: {final_transporter}")
 
     # Send the top transporters to the quality checker agent for further analysis
     top_transporters_message = TopTransporters(top_transporters=top_transporters)
@@ -67,9 +74,20 @@ async def handle_final_supplier(ctx: Context, sender: str, final_supplier: Final
     # Send the final transporter to the implementation agent
     transport_selection = TransportSelection(transporter=final_transporter)
     await ctx.send(implementation_address, transport_selection)
+    
     end_time = time.time()  # End timing
     execution_time = end_time - start_time  # Calculate elapsed time
-    ctx.logger.info(f"TransportAgent execution time: {execution_time:.2f} seconds")
+    output_log.append(f"TransportAgent execution time: {execution_time:.2f} seconds")
+
+    # Send output data to the server
+    output_data = {
+        "agent_name": "TransportAgent",
+        "logs":"\n".join(output_log),
+        "execution_time": execution_time,
+        "selected_transporter": final_transporter,
+        "top_transporters": top_transporters
+    }
+    requests.post(server_endpoint, json=output_data)
 
 if __name__ == "__main__":
     transport_agent.run()
