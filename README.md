@@ -7,7 +7,7 @@ This project transforms procurement management by automating critical tasks with
 
 ## 🌐 **Live Demo**
 
-Experience the live demo: [dApp - Procurement Management](https://fetchai-frontend.netlify.app/)
+Experience the live frontend demo: [dApp - Procurement Management](https://fetchai-frontend.netlify.app/)
 
 
 
